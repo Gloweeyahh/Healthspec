@@ -1,1 +1,52 @@
+:root {
+  --color-brand-primary: #5146e5;
 
+  --color-neutral-950: #111318;
+  --color-neutral-900: #191b21;
+  --color-neutral-800: #252830;
+  --color-neutral-700: #383c46;
+  --color-neutral-600: #5b606b;
+  --color-neutral-500: #777d88;
+  --color-neutral-400: #969ca7;
+  --color-neutral-300: #c5c9d0;
+  --color-neutral-200: #e1e3e7;
+  --color-neutral-100: #f0f1f3;
+  --color-neutral-50: #f8f9fa;
+
+  --color-success: #16803c;
+  --color-warning: #a15c00;
+  --color-error: #c62828;
+  --color-info: #2563eb;
+
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+
+  --bg: #ffffff;
+  --surface: var(--color-neutral-50);
+  --text-primary: var(--color-neutral-950);
+  --text-secondary: var(--color-neutral-600);
+  --border: var(--color-neutral-200);
+}
+
+:root[data-theme="dark"] {
+  --bg: #0d0f12;
+  --surface: #15171c;
+  --elevated: #1d2027;
+  --border: #2b2f38;
+  --text-primary: #f3f4f6;
+  --text-secondary: #a7acb5;
+}
