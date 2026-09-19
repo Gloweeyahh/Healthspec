@@ -1,13 +1,5 @@
 {
   "name": "healthspec",
   "private": true,
-  "version": "0.1.0",
-  "workspaces": [
-    "app/*"
-  ],
-  "scripts": {
-    "dev": "npm run dev --workspace=app/web",
-    "build": "npm run build --workspace=app/web",
-    "start": "npm run start --workspace=app/web"
-  }
+  "version": "0.1.0"
 }
