@@ -1,5 +1,5 @@
 [build]
-  base = "app/web"
+  base = "apps/web"
   command = "npm install && npm run build"
 
 [[plugins]]

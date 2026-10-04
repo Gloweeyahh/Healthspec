@@ -18,20 +18,19 @@ place. Authentication and the workspace UI are next.
 ## Local development
 
 ```bash
-cd app/web
+cd apps/web
 npm install
 npm run dev
 ```
 
-Copy `app/web/.env.example` to `app/web/.env.local` and fill in your
-Supabase project URL and publishable key (Project Settings → API in the
-Supabase dashboard).
+Copy `apps/web/.env.example` to `apps/web/.env.local` and fill in your
+Supabase project URL and publishable key.
 
 ## Project structure
 
 ```
 healthspec/
-├── app/
+├── apps/
 │   └── web/               Next.js application
 ├── supabase/
 │   └── migrations/        SQL migrations (source of truth for the schema)
